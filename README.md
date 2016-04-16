@@ -24,31 +24,31 @@ Then you can create div-table html template and initialize it with javascript:
 html
 ```html
 <div class="container">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<!--this is the main table part-->
-				<div class="table">
-					<div class="thead">
-						<div class="tr">
-							<div class="th">Name</div>
-							<div class="th">Gender</div>
-							<div class="th">ID Number</div>
-							<div class="th">Address</div>
-						</div>
-					</div>
-					<div class="tbody">
-						<div class="tr">
-							<div class="td">Andy</div>
-							<div class="td">man</div>
-							<div class="td">Z000000000</div>
-							<div class="td">000 Apple Street, Candy City.</div>
-						</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<!--this is the main table part-->
+			<div class="table">
+				<div class="thead">
+					<div class="tr">
+						<div class="th">Name</div>
+						<div class="th">Gender</div>
+						<div class="th">ID Number</div>
+						<div class="th">Address</div>
 					</div>
 				</div>
-				<!--end-->
+				<div class="tbody">
+					<div class="tr">
+						<div class="td">Andy</div>
+						<div class="td">man</div>
+						<div class="td">Z000000000</div>
+						<div class="td">000 Apple Street, Candy City.</div>
+					</div>
+				</div>
 			</div>
+			<!--end-->
 		</div>
 	</div>
+</div>
 ```
 
 javascript(for initialization)
