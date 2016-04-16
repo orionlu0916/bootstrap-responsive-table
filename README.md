@@ -7,13 +7,13 @@ Usage
 First of all, you need to include Bootstrap and this extension:
 
 css styles
-```
+```html
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/responsive-table.css">
 ```
 
 javascript
-```
+```html
 <script  src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="js/responsive-table.js"></script>
@@ -22,7 +22,7 @@ javascript
 Then you can create div-table html template and initialize it with javascript:
 
 html
-```
+```html
 <div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
@@ -52,7 +52,7 @@ html
 ```
 
 javascript(for initialization)
-```
+```javascript
 <script type="text/javascript">
 	$( document ).ready(function() {
 		$('.table').responsiveTable();
@@ -61,7 +61,7 @@ javascript(for initialization)
 ```
 
 initialize with options
-```
+```javascript
 <script type="text/javascript">
 	$( document ).ready(function() {
 		$('.table').responsiveTable({
@@ -74,7 +74,7 @@ initialize with options
 
 Options
 -----
-| option name   | description   |default|
+| option name   | description   |default value|
 | ------------- |---------------| ------|
-| displayTitle  | display table head when the with is fit breaking point. |  true |
+| displayTitle  | display table head when the width is fit breaking point. |  true |
 | width         | breaking point|  480  |
