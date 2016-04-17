@@ -8,15 +8,15 @@ First of all, you need to include Bootstrap and this extension:
 
 css styles
 ```html
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="css/responsive-table.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive-table.css">
 ```
 
 javascript
 ```html
 <script  src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="js/responsive-table.js"></script>
+<script src="js/bootstrap-responsive-table.js"></script>
 ```
 
 Then you can create div-table html template and initialize it with javascript:
